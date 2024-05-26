@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 0;
+  border-radius: 0;
+}
+
+.main {
+  background-color: #004980;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 158px;
+  padding-bottom: 158px;
+}
+.main-container {
+  background-color: #C2F5FF;
+  border-radius: 12px;
+  width: 480px;
+  height: 459px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-container--text {
+  color: #004980;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 52px;
+}
+.main-container--btn---group {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 48px;
+  margin-bottom: 67px;
+}
+.main-container--lvl {
+  min-width: 98px;
+  height: 98px;
+  border-radius: 12px;
+  background: #FFFFFF;
+  font-size: 64px;
+  line-height: 72px;
+  color: rgb(0, 128, 193);
+  padding: 17px 12px 17px 12px;
+  gap: 24px;
+}
+.main-container--btn {
+  min-width: 246px;
+  height: 50px;
+  border-radius: 12px;
+  opacity: 0px;
+  background: rgb(122, 193, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 12px 16px 16px 12px;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 40px 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 240px;
+  padding: 30px;
+  background-color: rgb(226, 187, 137);
+  font-size: 0;
+  color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card:hover {
+  background-color: rgb(38, 204, 162);
+}
+
+.card:active {
+  background-color: rgb(15, 102, 80);
+}
+
+.open {
+  font-size: 36px;
+  color: white;
+  background-color: rgb(16, 151, 144);
+  cursor: default;
+}
+
+.open:hover {
+  background-color: rgb(16, 151, 144);
+}
+
+.open:active {
+  background-color: rgb(16, 151, 144);
+}
+
+.success {
+  font-size: 36px;
+  color: white;
+  background-color: #3c9700;
+  cursor: default;
+}
+
+.success:hover {
+  background-color: #3c9700;
+}
+
+.success:active {
+  background-color: #3c9700;
+}/*# sourceMappingURL=style.css.map */
