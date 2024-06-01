@@ -1,3 +1,4 @@
+import {startEasyLevel};
 const game = document.getElementById('game');
 
 function startGame(game, pairsCards) {
