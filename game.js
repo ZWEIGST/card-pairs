@@ -1,10 +1,6 @@
 import { chooseDifficulty } from './gamefield.js';
 const game = document.getElementById('game');
-let pairsCards = chooseDifficulty();
-
-document.querySelector('.easy_level').addEventListener('click', function() {
-  setPairsCards('easy');
-});
+const pairsCards = chooseDifficulty();
 
 function startGame(game, pairsCards) {
   const cardsNumberArr = [];
@@ -96,5 +92,5 @@ function startGame(game, pairsCards) {
 };
 
 // start game
-const pairsCards = chooseDifficulty();
+// const pairsCards = chooseDifficulty();
 startGame(game, pairsCards);
